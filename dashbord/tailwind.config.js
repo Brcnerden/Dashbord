@@ -15,10 +15,17 @@ module.exports = {
         gray100:"#5E6366",
         gray200:"#C6CACC",
         gray300:"#919699",
+        gray400:"#78909C",
         white100:"#F7F9FA",
         white200:"#E3E5E5",
         white300:"#F1F3F4",
         yellow100:"#F3AA18",
+        red100:"#EA3D2F",
+        green100:"#2FA84F",
+        turquois100:"#069697",
+
+
+
 
 
         

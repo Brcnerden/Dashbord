@@ -11,6 +11,17 @@ import Outline from "./Outline.svg";
 import Setting from "./Setting.svg";
 import Replay from "./Replay.svg";
 import Inform from "./Inform.svg";
+import ChevronDown from "./ChevronDown.svg";
+import Printer from "./Printer.svg";
+import Download from "./Download.svg";
+import ChevronUp from "./ChevronUp.svg";
+import ChevronColor from "./ChevronColor.svg";
+
+
+
+
+
+
 
 const createIcons = (map) => map;
 
@@ -28,6 +39,12 @@ const Icons = createIcons({
   Setting,
   Replay,
   Inform,
+  ChevronDown,
+  Printer,
+  Download,
+  ChevronUp,
+  ChevronColor
+
 });
 
 export default Icons;
