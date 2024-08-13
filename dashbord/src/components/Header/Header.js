@@ -1,6 +1,6 @@
 import React from 'react'
 import { Top } from './Top'
-import { Bottom } from './bottom'
+import { Bottom } from './Bottom'
 
 export const Header = () => {
   return (

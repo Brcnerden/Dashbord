@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Top = () => {
   return (
-    <div className='h-[64px] mt-[10px] flex items-center justify-between'>
+    <div className='h-[64px] mt-[10px] py-[12px] flex items-center justify-between'>
        
         <Image src="/Images/Logo.png" width={152} height={40} alt="logo"/>
         <div className='flex items-center'>
@@ -26,7 +26,7 @@ export const Top = () => {
         </div>
         
         </div>
-        <div className='flex'>
+        <div className='flex font-[Roboto]'>
         <button className='flex items-center bg-white100 rounded-[4px] py-[9px] px-[8px] '>
             <div className='text-gray100 mr-[10px]'>Help</div>
             <div className='w-[25px] h-[25px] text-white rounded-full flex items-center justify-center bg-gray200'>?</div>
