@@ -7,11 +7,9 @@ export const HomePage = () => {
   return (
     <div>
         <Header/>
-        <div className='flex'>
+        <div className='flex max-sm:flex-col'>
         <SideBar/>
         <MainSide/>
-
-
         </div>
     </div>
   )

@@ -3,7 +3,7 @@ import React from 'react'
 
 export const SideBar = () => {
   return (
-    <div className='w-[260px] mt-[41px] px-[27px] font-[Quicksand]'>
+    <div className='w-[260px] mt-[41px] px-[27px] font-[Quicksand] max-sm:hidden'>
         <button className='flex items-center ml-[15px] py-[12px] px-[30px] rounded-[99px] shadow-custom'>
         <span className='bg-blue100 w-[16px] font-[Quicksand]  h-[16px] mr-[8px] text-white rounded-full flex items-center justify-center'>+</span>
         <span className='font-[Quicksand] font-medium text-[20px] leading-7 text-blue100'>Create new</span>

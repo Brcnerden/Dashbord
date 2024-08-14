@@ -16,6 +16,8 @@ import Printer from "./Printer.svg";
 import Download from "./Download.svg";
 import ChevronUp from "./ChevronUp.svg";
 import ChevronColor from "./ChevronColor.svg";
+import Menu from "./Menu.svg";
+
 
 
 
@@ -43,7 +45,8 @@ const Icons = createIcons({
   Printer,
   Download,
   ChevronUp,
-  ChevronColor
+  ChevronColor,
+  Menu
 
 });
 

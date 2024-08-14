@@ -3,7 +3,7 @@ import React from "react";
 
 export const ChatBoard = () => {
   return (
-    <div className="ml-[176px] mt-[44px]">
+    <div className="ml-[148px] mt-[44px] max-sm:hidden">
       <div className="flex font-[Quicksand] font-medium text-[16px] leading-6 text-gray300">
         <div>
           <Icons.ChevronUp className="mb-[9px]" />
