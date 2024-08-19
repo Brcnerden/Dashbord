@@ -20,14 +20,14 @@ export const Top = () => {
         
  `}>
 
-<div className='w-[300px] mt-[41px] px-[27px] font-[Quicksand]'>
+<div className='w-[300px] mt-[41px] px-[27px] font-Quicksand'>
     <Image src="/Images/Logo.png" alt='logo' width={200} height={40}/>
     <button className='flex items-center ml-[15px] py-[8px] px-[24px] rounded-[99px] mt-[10px] shadow-custom'>
-        <span className='bg-blue100 w-[16px] font-[Quicksand]  h-[16px] mr-[8px] text-white rounded-full flex items-center justify-center'>+</span>
-        <span className='font-[Quicksand] font-medium text-[16px] leading-7 text-blue100'>Create new</span>
+        <span className='bg-blue100 w-[16px] font-Quicksand  h-[16px] mr-[8px] text-white rounded-full flex items-center justify-center'>+</span>
+        <span className='font-Quicksand font-medium text-[16px] leading-7 text-blue100'>Create new</span>
         </button>
       
-        <div className=' flex flex-col font-[Roboto] font-normal text-[28px] my-[40px] leading-6 '>
+        <div className=' flex flex-col  font-normal text-[28px] my-[40px] leading-6 '>
           <div className='flex items-center justify-between mt-[28px]'>
           <div className='text-black opacity-85'>Analyze</div>
           <Icons.ChevronUp className="rotate-90 fill-black"/>
@@ -120,9 +120,9 @@ export const Top = () => {
             <Icons.Outline/>
 
             <div className=' flex items-end '>
-            <button className='font-[Roboto] font-medium rounded-[4px] text-[10px] leading-4  px-[7px] py-[5px] bg-gradient-button text-gray100'>status</button>
-            <button className='font-[Roboto] font-medium rounded-[4px] text-[10px] leading-4  px-[7px] py-[5px] bg-white100 text-gray100'>privacy</button>
-            <button className='font-[Roboto] font-medium rounded-[4px] text-[10px] leading-4  px-[7px] py-[5px] bg-white100 text-gray100'>terms</button>
+            <button className=' font-medium rounded-[4px] text-[10px] leading-4  px-[7px] py-[5px] bg-gradient-button text-gray100'>status</button>
+            <button className=' font-medium rounded-[4px] text-[10px] leading-4  px-[7px] py-[5px] bg-white100 text-gray100'>privacy</button>
+            <button className=' font-medium rounded-[4px] text-[10px] leading-4  px-[7px] py-[5px] bg-white100 text-gray100'>terms</button>
 
         </div>
 
@@ -135,7 +135,15 @@ export const Top = () => {
 
 </div>
       <div className='max-sm:flex max-sm:w-full max-sm:justify-between max-sm:px-[20px]' >
-      <Image src="/Images/Logo.png" width={152} height={40} alt="logo"/>
+        <div className='flex items-center'>
+            <div className='relative mr-[10px]'>
+            <Image src="/Images/Logo BG.png" width={40} height={40} alt="logo"  className='w-[50px] h-[50px] '/>
+            <Image src="/Images/Letter.png" width={40} height={40} alt="logo" className='w-[60px] absolute  top-2 h-[60px]'/>
+
+            </div>
+<Image src="/Images/Name.png" width={152} height={40} alt="logo" className='w-[152px] '/>
+        </div>
+    
       <button onClick={()=>setisMenuOpen(!isMenuOpen)} className='sm:hidden'>
         <Icons.Menu className="h-[32px] w-[32px] mb-[15px]"/>
       </button>
@@ -146,30 +154,30 @@ export const Top = () => {
        
 
         <div className='flex items-center max-sm:hidden'>
-        <div className='flex w-[72px] h-[40px] border-[1px] px-[4px] rounded-lg border-gray200 items-center justify-between'>
+        <div className='flex w-[72px] h-[40px] border px-[4px] rounded-lg border-white200 items-center justify-between'>
             <Icons.Grid/>
-            <div className='font-normal font-[Quicksand] text-[20px] leading-7 text-gray100'>13</div>
+            <div className='font-medium font-Quicksand text-[20px] leading-7 text-gray100'>13</div>
         </div>
-        <div className='font-[Roboto] flex items-center'>
+        <div className=' flex items-center px-[16px] py-[8px]'>
         <Icons.Chevron/>
         <div className='text-gray200 font-normal text-[16px] leading-6'>My workspace</div>
         </div>
-        <div className='font-[Roboto]  flex items-center'>
+        <div className=' flex items-center '>
         <Icons.Chevron className="fill-gray300"/>
         <div className=' text-gray300 font-normal text-[16px] leading-6'>Drafts</div>
         </div>
-        <div className='font-[Roboto]  flex items-center'>
+        <div className='  flex items-center px-[23px]'>
         <Icons.Chevron className="fill-black opacity-85"/>
         <div className=' text-black font-normal text-[16px] opacity-85 leading-6'>Analytika_dashboard_kit</div>
         </div>
         
         </div>
-        <div className='flex font-[Roboto] max-sm:hidden'>
-        <button className='flex items-center bg-white100 rounded-[4px] py-[9px] px-[8px] '>
-            <div className='text-gray100 mr-[10px]'>Help</div>
-            <div className='w-[25px] h-[25px] text-white rounded-full flex items-center justify-center bg-gray200'>?</div>
+        <div className='flex max-lg:hidden'>
+        <button className='flex items-center bg-white100 rounded-[4px] py-[4px] px-[14px] '>
+            <div className='text-gray100 text-[16px] leading-8 mr-[10px]'>Help</div>
+            <div className='w-[20px] h-[20px] text-white rounded-full flex items-center justify-center bg-gray200'>?</div>
         </button>
-        <button className='font-medium text-[14px] leading-4 py-[9px] px-[8px]  shadow-custom  mx-[16px] rounded-[4px] text-blue100'>
+        <button className='font-medium text-[14px] leading-4 py-[6px] px-[13px]  shadow-custom  mx-[16px] rounded-[4px] text-blue100'>
         UPGRADE
         </button>
         <Image src="/Images/FernandoPidrilio.png" alt='profile' width={40} height={40} className='h-[40px]'/>

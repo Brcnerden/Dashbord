@@ -9,6 +9,19 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
           "gradient-button":"linear-gradient(90deg, #D1FDFF 0%, #FFECBC 100%)"
       },
+      fontFamily:{
+        "Quicksand": "Quicksand, sans-serif",
+      },
+
+      screens: {
+        'xs': '320px',  
+        'sm': '802px',  
+        'md': '768px',  
+        'lg': '1185px', 
+        'xl': '1280px', 
+        '2xl': '1536px', 
+        '3xl': '1600px',
+      },
       colors: {
         black:"#000000",
         blue100:"#367BF5",

@@ -5,7 +5,7 @@ export const TinyBoard = () => {
   return (
     <>
       <div className="flex">
-        <div className="w-[180px] mt-[32px] font-[Roboto]">
+        <div className="w-[180px] mt-[32px] ">
           <div className=" font-medium text-[14px] text-gray300 leading-[22px]">
             <div>Type of Action</div>
             <div className=" border-b-[2px]  border-white200 my-2"></div>
@@ -30,7 +30,7 @@ export const TinyBoard = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[102px] ml-[40px] mt-[32px] font-[Roboto]">
+        <div className=" w-[102px] ml-[40px] mt-[32px] ">
           <div className="flex justify-center items-center">
             <div className=" mr-2  flex justify-end font-normal text-[14px] text-gray300">
               When
